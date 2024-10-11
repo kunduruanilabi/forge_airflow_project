@@ -11,7 +11,7 @@ default_args = {
 
 # Create the DAG
 with DAG(
-    dag_id='docker_python_slim_dag',
+    dag_id='git_sync_test',
     default_args=default_args,
     schedule_interval='@daily',  
     catchup=False,
